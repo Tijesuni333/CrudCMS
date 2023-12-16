@@ -15,11 +15,11 @@
     </style>
 </head>
 <body>
-    <section class="first">
-        <header>
-            <h1>Contact Management System</h1>
-            <p> <span>Note:</span>  Fill form to register your contact details</p>
-        </header>
+    <header>
+        <h1>Contact Management System</h1>
+        <p> <span>Note:</span>  Fill form to register your contact details</p>
+    </header>
+    <section>
         <div class="up">
                 <form id="form">
                     <fieldset>
@@ -30,12 +30,12 @@
                         <div id="msg"></div>
                     
                         <label for="email">Email: </label>
-                        <input type="text"  name="email" placeholder="Enter email here" class="input" required id="input2" ><br><br>
+                        <input type="email"  name="email" placeholder="Enter email here" class="input" required id="input2" ><br><br>
                         <br> <br>
                         <div id="msg"></div>
     
                         <label for="Phone Number">Phone Number: </label>
-                        <input type="text"  name="Phone Number" min="0"   placeholder="Enter Number here" required class="input3" id="input" > <br><br>  
+                        <input type="number"  name="Phone Number" min="0"   placeholder="Enter Number here" required class="input" id="input3" > <br><br>  
                         <br> <br>
                         <div id="msg"></div>
 
@@ -43,13 +43,11 @@
                     </fieldset>
                 </form>
         </div>
-    </section>
-    <section class="second">
         <div class="down">
             <h1>Your Contacts</h1>
 
-            <div id="posts">
-                <table>
+            <div>
+                <table id="posts">
                     <tr>
                         <th>Name</th>
                         <th>E mail</th>

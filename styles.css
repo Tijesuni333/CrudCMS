@@ -1,7 +1,14 @@
 html{
     background-color: #fafad2;
 }
-.first{
+header{
+    text-align: center;
+    padding-top: 2rem;
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
     margin: 5rem;
     text-align: center;
     background-color: #ffffff;
@@ -9,6 +16,7 @@ html{
     padding-bottom: 0.5rem;
     padding-top: 1rem;
 }
+
 form{
     text-align: left;
 }
@@ -23,15 +31,14 @@ fieldset{
     border-radius: 3rem;
 }
 .btn input{
-    margin-left: 10rem;
+    margin-left: 8rem;
     padding: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border: none;
     background-color: black;
     color: white;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .input{
     padding: 2rem;
@@ -40,16 +47,12 @@ fieldset{
     padding-right: 4rem;
     
 }
-.second{
-    margin: 5rem;
-    text-align: center;
-    background-color: #ffffff;
-    border-radius: 2rem;
-    padding-bottom: 3rem;
-    padding-top: 1rem;
+.down{
+    margin-right: 3rem;
 }
 table{
     margin: auto;
+    border-collapse: collapse;
    
 }
 td, th {
@@ -58,17 +61,106 @@ td, th {
     padding: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-radius: 0.5rem;
-}
-tr:nth-child(even) {
-    background-color: #dddddd;
+    
+    /* border-radius: 0.5rem; */
 }
 .options{
     display: flex;
 }
 i{
     padding:0.3rem;
+    cursor: pointer;
 }
 #msg {
     color: red;
+}
+
+@media (max-width:400px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: auto;
+    }
+    section{
+        margin: auto;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+       flex-direction: column;
+        
+    }
+    .btn input{
+        margin-left: 4.5rem;
+     
+    }
+
+
+}
+@media (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: auto;
+    }
+    section{
+      margin: auto;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+       flex-direction: column;
+        
+    }
+    .btn input{
+        margin-left: 4.5rem;
+     
+    }
+
+}
+@media (max-width:768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: auto;
+    }
+    section{
+        margin: auto;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+       flex-direction: column;
+        
+    }
+    .btn input{
+        margin-left: 4.5rem;
+     
+    }
+
+}
+@media (max-width:900px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: auto;
+    }
+    section{
+        margin: auto;
+        padding: 0;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+       flex-direction: column;
+        
+    }
+    .btn input{
+        margin-left: 4.5rem;
+     
+    }
+
 }

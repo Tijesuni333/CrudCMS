@@ -1,5 +1,5 @@
 # CrudCMS
-<h1 align="center">Hi 👋, I'm tijesunni</h1>
+<h1 align="center">Hi 👋, I'm tijesuni</h1>
 - 🔭 I’m currently working on [contact management system](https://tijesuni333.github.io/CrudCMS/)
 
 <h3 align="left">Connect with me:</h3>

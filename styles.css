@@ -69,3 +69,6 @@ tr:nth-child(even) {
 i{
     padding:0.3rem;
 }
+#msg {
+    color: red;
+}

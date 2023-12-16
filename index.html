@@ -21,20 +21,24 @@
             <p> <span>Note:</span>  Fill form to register your contact details</p>
         </header>
         <div class="up">
-                <form id="form" action="/action_page.php">
+                <form id="form">
                     <fieldset>
                         <legend>Contact Details</legend>
                         <label for="Name">Name: </label>
-                        <input type="text" id="Name" name="Name" placeholder="Enter name here" required class="input"><br><br>
-    
+                        <input type="text"  name="Name" placeholder="Enter name here" required class="input" id="input" ><br><br>
+                        <br> <br>
+                        <div id="msg"></div>
                     
                         <label for="email">Email: </label>
-                        <input type="email" id="email" name="email" placeholder="Enter email here" class="input" required><br><br>
-    
+                        <input type="text"  name="email" placeholder="Enter email here" class="input" required id="input2" ><br><br>
+                        <br> <br>
+                        <div id="msg"></div>
     
                         <label for="Phone Number">Phone Number: </label>
-                        <input type="number" id="Phone Number" name="Phone Number" min="0"   placeholder="Enter Number here" required class="input"> <br><br>  
-                        
+                        <input type="text"  name="Phone Number" min="0"   placeholder="Enter Number here" required class="input3" id="input" > <br><br>  
+                        <br> <br>
+                        <div id="msg"></div>
+
                         <p class="btn"><input type="submit"value="Save"></p>
                     </fieldset>
                 </form>
@@ -62,24 +66,10 @@
                               </span>
                         </td>
                     </tr>
-                    <tr>
-                        <td>daniel</td>
-                        <td>daniel333@gmail.com</td>
-                        <td>08106049755</td>
-                        <td>
-                            <span class="options">
-                                <i onClick="editPost(this)" class="fas fa-edit"></i>
-                                <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
-                              </span>
-                        </td>
-                    </tr> 
-
                 </table>
 
             </div>
         </div>
     </section>
-        
-  
     <script src="app.js"></script>
 </body>
